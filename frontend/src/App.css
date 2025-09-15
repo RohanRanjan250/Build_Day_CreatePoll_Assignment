@@ -1,0 +1,22 @@
+/* frontend/src/App.css */
+body { font-family: sans-serif; background-color: #f4f4f9; color: #333; }
+.App { max-width: 800px; margin: 0 auto; padding: 20px; }
+nav { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
+nav a { margin-right: 15px; text-decoration: none; color: #5a67d8; font-weight: bold; }
+
+/* Forms */
+.create-poll-form { display: flex; flex-direction: column; gap: 10px; }
+input[type="text"] { padding: 10px; border-radius: 4px; border: 1px solid #ccc; }
+button { padding: 10px 15px; border: none; background-color: #5a67d8; color: white; border-radius: 4px; cursor: pointer; }
+button:hover { background-color: #434190; }
+
+/* Poll List */
+.poll-list ul { list-style: none; padding: 0; }
+.poll-list li { background: #fff; margin-bottom: 10px; padding: 15px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+
+/* Poll Detail */
+.poll-detail { background: #fff; padding: 20px; border-radius: 8px; }
+.option-result { display: grid; grid-template-columns: 1fr 2fr 1fr 1fr; align-items: center; gap: 10px; margin-bottom: 10px; }
+.bar-container { width: 100%; background-color: #e2e8f0; border-radius: 4px; }
+.bar { height: 20px; background-color: #63b3ed; border-radius: 4px; }
+.votes { text-align: right; }
